@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Web Portfolio Rezachan versi 1.5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Reza Axel Vareno">
+  <title>Rezaxel</title>
+  <script src="script.js"></script>
+  <link rel="icon" type="image/x-icon" href="Source/Icon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+</head>
+
+<body>
+
+  <!-- <section id="ingfhyped" class="ingfosec">
+    <div class="brdringf">
+      <h2>- INFORMASI -</h2>
+      <div class="overflwfo">
+        <p>Selamat datang di situs portofolio Rezaxel. Rezaxel senang memberitahu Anda bahwa Rezachan baru saja melakukan beberapa pembaruan penting pada websitenya. Informasi terkait pembaruan tersebut adalah desain yang baru, penyempurnaan konten, responsivitas, dan lain-lain. Rezachan berharap bahwa pembaruan ini akan memberikan nilai tambah bagi Anda sebagai pengunjung. Jika Anda memiliki pertanyaan, masukan, saran, dan lain-lain mengenai pembaruan ini, hubungi Rezachan melalui halaman kontak yang tersedia. Rezachan segera menanggapi tanggapan Anda.</p>
+      </div>
+      <button onclick="ingfopres()">Tutup</button>
+    </div>
+  </section> 
+
+  <script>
+    function ingfopres() {
+    var ingfosele = document.querySelectorAll("#ingfhyped");
+      ingfosele.forEach(function(element) {
+        element.classList.toggle("ingfosel");
+      });
+    var blurer = document.getElementById("bluring");
+      blurer.classList.toggle("blured")
+    }
+  </script> -->
+
+<!--Popnav-->
+  
+  <section id="navpopup" class="popnav">
+    <div class="nvline">
+      <h2>- MENU -</h2>
+      <a onclick="clickednav()" href="#Utama">Utama</a></li>
+      <a onclick="clickednav()" href="#Tentang">Tentang</a>
+      <a onclick="clickednav()" href="#Keahlian">Keahlian</a>
+      <a onclick="clickednav()" href="#Prestasi">Prestasi</a>
+      <a onclick="clickednav()" href="#Hubungi">Hubungi</a>
+      <span></span>
+      <button onclick="clickednav()">Tutup</button>
+    </div>
+    </div>
+  </section>
+
+  <script>
+  function navopen() {
+    var bluring = document.getElementById("bluring");
+    bluring.classList.toggle('blured');
+    var navbar = document.getElementById("navpopup");
+    navbar.classList.toggle('navspawn');
+  }
+  function clickednav() {
+    var bluring = document.getElementById("bluring");
+    bluring.classList.remove('blured');
+    var navbar = document.getElementById("navpopup");
+    navbar.classList.remove('navspawn');
+  }
+  </script>
+
+<!--Popskill-->
+
+  <main class="ingfkeahlian">
+    <div id="skillspawner1" class="skillinfo">
+      <div class="skiline">
+        <h2>- HTML -</h2>
+        <div class="flowskill">
+          <h3>Hypertext Markup Language</h3>
+          <p>Jenis: <span>Bahasa Markah</span></p>
+          <p>Tanggal Dimulai: <span>Desember 2022</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>94%</span></p>
+            <div class="valuskill">
+              <span class="htmla"></span>
+            </div>
+            <p>Pengetahuan: <span>89%</span></p>
+            <div class="valuskill">
+              <span class="htmlb"></span>
+            </div>
+            <p>Keterampilan: <span>81%</span></p>
+            <div class="valuskill">
+              <span class="htmlc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>3</span></p>
+          <p>Projek Yang Belum Jadi: <span>2</span></p>
+          <p>Projek Yang Dihapus: <span>5</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>5</span></p>
+        </div>
+        <button onclick="skiller1()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller1() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner1");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner2" class="skillinfo">
+      <div class="skiline">
+        <h2>- CSS -</h2>
+        <div class="flowskill">
+          <h3>Cascading Style Sheets</h3>
+          <p>Jenis: <span>Bahasa Gaya</span></p>
+          <p>Tanggal Dimulai: <span>Desember 2022</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>93%</span></p>
+            <div class="valuskill">
+              <span class="cssa"></span>
+            </div>
+            <p>Pengetahuan: <span>76%</span></p>
+            <div class="valuskill">
+              <span class="cssb"></span>
+            </div>
+            <p>Keterampilan: <span>75%</span></p>
+            <div class="valuskill">
+              <span class="cssc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>3</span></p>
+          <p>Projek Yang Belum Jadi: <span>2</span></p>
+          <p>Projek Yang Dihapus: <span>5</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>5</span></p>
+        </div>
+        <button onclick="skiller2()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller2() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner2");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner3" class="skillinfo">
+      <div class="skiline">
+        <h2>- JS -</h2>
+        <div class="flowskill">
+          <h3>Javascript</h3>
+          <p>Jenis: <span>Bahasa Pemrograman</span></p>
+          <p>Tanggal Dimulai: <span>Februari 2023</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>50%</span></p>
+            <div class="valuskill">
+              <span class="jsa"></span>
+            </div>
+            <p>Pengetahuan: <span>21%</span></p>
+            <div class="valuskill">
+              <span class="jsb"></span>
+            </div>
+            <p>Keterampilan: <span>14%</span></p>
+            <div class="valuskill">
+              <span class="jsc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>3</span></p>
+          <p>Projek Yang Belum Jadi: <span>0</span></p>
+          <p>Projek Yang Dihapus: <span>1</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>3</span></p>
+        </div>
+        <button onclick="skiller3()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller3() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner3");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner4" class="skillinfo">
+      <div class="skiline">
+        <h2>- C++ -</h2>
+        <div class="flowskill">
+          <h3>C Plus Plus</h3>
+          <p>Jenis: <span>Bahasa Pemrograman</span></p>
+          <p>Tanggal Dimulai: <span>Maret 2023</span></p>
+          <p>Tanggal Diakhiri: <span>April 2023</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>5%</span></p>
+            <div class="valuskill">
+              <span class="cppa"></span>
+            </div>
+            <p>Pengetahuan: <span>4%</span></p>
+            <div class="valuskill">
+              <span class="cppb"></span>
+            </div>
+            <p>Keterampilan: <span>0%</span></p>
+            <div class="valuskill">
+              <span class="cppc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>0</span></p>
+          <p>Projek Yang Belum Jadi: <span>0</span></p>
+          <p>Projek Yang Dihapus: <span>1</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>0</span></p>
+        </div>
+        <button onclick="skiller4()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller4() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner4");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner5" class="skillinfo">
+      <div class="skiline">
+        <h2>- LMMS -</h2>
+        <div class="flowskill">
+          <h3>Linux MultiMedia Studio</h3>
+          <p>Jenis: <span>Digital Audio Workstation</span></p>
+          <p>Tanggal Dimulai: <span>Oktober 2020</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>90%</span></p>
+            <div class="valuskill">
+              <span class="lmmsa"></span>
+            </div>
+            <p>Pengetahuan: <span>79%</span></p>
+            <div class="valuskill">
+              <span class="lmmsb"></span>
+            </div>
+            <p>Keterampilan: <span>64%</span></p>
+            <div class="valuskill">
+              <span class="lmmsc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>16</span></p>
+          <p>Projek Yang Belum Jadi: <span>20</span></p>
+          <p>Projek Yang Dihapus: <span>9</span></p>
+          <p>Projek Yang Rusak: <span>2</span></p>
+          <p>Total Seluruh Projek: <span>36</span></p>
+        </div>
+        <button onclick="skiller5()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller5() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner5");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner6" class="skillinfo">
+      <div class="skiline">
+        <h2>- FLS -</h2>
+        <div class="flowskill">
+          <h3>Fruity Loops Studio</h3>
+          <p>Jenis: <span>Digital Audio Workstation</span></p>
+          <p>Tanggal Dimulai: <span>Agustus 2022</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>70%</span></p>
+            <div class="valuskill">
+              <span class="fla"></span>
+            </div>
+            <p>Pengetahuan: <span>26%</span></p>
+            <div class="valuskill">
+              <span class="flb"></span>
+            </div>
+            <p>Keterampilan: <span>17%</span></p>
+            <div class="valuskill">
+              <span class="flc"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>5</span></p>
+          <p>Projek Yang Belum Jadi: <span>7</span></p>
+          <p>Projek Yang Dihapus: <span>1</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>12</span></p>
+        </div>
+        <button onclick="skiller6()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller6() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner6");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner7" class="skillinfo">
+      <div class="skiline">
+        <h2>- Replit -</h2>
+        <div class="flowskill">
+          <h3>Replit</h3>
+          <p>Jenis: <span>Integrated Development Environment</span></p>
+          <p>Tanggal Dimulai: <span>Oktober 2022</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>97%</span></p>
+            <div class="valuskill">
+              <span class="rea"></span>
+            </div>
+            <p>Pengetahuan: <span>90%</span></p>
+            <div class="valuskill">
+              <span class="reb"></span>
+            </div>
+            <p>Keterampilan: <span>88%</span></p>
+            <div class="valuskill">
+              <span class="rec"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>9</span></p>
+          <p>Projek Yang Belum Jadi: <span>4</span></p>
+          <p>Projek Yang Dihapus: <span>7</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>13</span></p>
+        </div>
+        <button onclick="skiller7()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller7() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner7");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+    <div id="skillspawner8" class="skillinfo">
+      <div class="skiline">
+        <h2>- Canva -</h2>
+        <div class="flowskill">
+          <h3>Canva</h3>
+          <p>Jenis: <span>Aplikasi Desain Grafis</span></p>
+          <p>Tanggal Dimulai: <span>Februari 2023</span></p>
+          <p>Tanggal Diakhiri: <span>-</span></p>
+          <h3>Penguasaan</h3>
+          <div class="percentskill">
+            <p>Minat: <span>96%</span></p>
+            <div class="valuskill">
+              <span class="caa"></span>
+            </div>
+            <p>Pengetahuan: <span>85%</span></p>
+            <div class="valuskill">
+              <span class="cab"></span>
+            </div>
+            <p>Keterampilan: <span>82%</span></p>
+            <div class="valuskill">
+              <span class="cac"></span>
+            </div>
+          </div>
+          <h3>Jumlah Projek</h3>
+          <p>Projek Yang Sudah Jadi: <span>4</span></p>
+          <p>Projek Yang Belum Jadi: <span>17</span></p>
+          <p>Projek Yang Dihapus: <span>3</span></p>
+          <p>Projek Yang Rusak: <span>0</span></p>
+          <p>Total Seluruh Projek: <span>21</span></p>
+        </div>
+        <button onclick="skiller8()">Tutup</button>
+      </div>
+    </div>
+      
+    <script>
+      function skiller8() {
+      var bluring = document.getElementById("bluring");
+      bluring.classList.toggle('blured');
+      var navbar = document.getElementById("skillspawner8");
+      navbar.classList.toggle('skillspawned');
+      }
+    </script>
+
+  </main>
+
+<div id="bluring">
+
+<!--Navigation-->
+
+  <nav id="navbar">
+    <h1>Reza<span>xel</span>.</h1>
+    <ul>
+      <li><a href="#Utama">Utama</a></li>
+      <li><a href="#Tentang">Tentang</a></li>
+      <li><a href="#Keahlian">Keahlian</a></li>
+      <li><a href="#Prestasi">Prestasi</a></li>
+      <li><a href="#Hubungi">Hubungi</a></li>
+    </ul>
+    <a class="hamburger" onclick="navopen()"><i class="fa fa-bars"></i></a>
+  </nav>
+
+  <script>
+  window.addEventListener('scroll', function() {
+  var navbar = document.getElementById("navbar");
+  navbar.classList.toggle('navwhendown', window.scrollY > 0);
+  });
+
+  window.addEventListener('scroll', function() {
+  var navbar = document.getElementById("mainmove");
+  navbar.classList.toggle('movedmain', window.scrollY > 0);
+  });
+
+  window.addEventListener('scroll', function() {
+  var navbar = document.getElementById("mainidqare");
+  navbar.classList.toggle('qqaremainmov', window.scrollY > 0);
+  });
+  </script>
+
+<!--Utama-->
+
+  <section class="utama" id="Utama">
+    <img src="Source/Background.jpg">
+    <main class="maintext" id="mainmove">
+      <span class="qqaremain" id="mainidqare"></span>
+      <h1>Reza<span>xel</span>.</h1>
+      <p class="versions">Web Version: 1.5</p>
+      <p>I am Content Creator, Animator, and Front-End Developer.</p>
+      <div class="mainlink">
+        <!-- <a href="#Informasi" onclick="ingfopres()"><i class="fa fa-book"></i> </a> -->
+        <a href="#Tentang"><i class="fa-solid fa-user"></i> About Me</a>
+        <a href="#Keahlian"><i class="fa-solid fa-pen"></i> Skills</a>
+        <a href="#Hubungi"><i class="fa fa-envelope"></i> Contact Me</a>
+      </div>
+    </main>
+  </section>
+
+<!--Tentang-->
+
+  <section class="tentang" id="Tentang">
+    <main class="tentangsaya">
+      <h2>Tentang <span>Saya</span></h2>
+      <img src="Source/Renamed.png">
+      <p>Saya Reza Axel Vareno, sebut saja Rezaxel. Saya seorang Konten Kreator, Animator, dan Front-End Developer. Hobi saya yang paling saya minati adalah tidur. Saya memulai untuk membuat situs web sejak Desember 2022, dan ini merupakan website pertama saya. Salah satu pelajaran yang saya sukai adalah ilmu informasi dan teknologi.</p>
+    <div class="mainabouttext">
+      <div class="mainbout">
+        <h2>Nama Lengkap</h2>
+        <img src="Source/Profilwa.png">
+        <p>Reza Axel Vareno</p>
+      </div>
+      <div class="mainbout">
+        <h2>Asal Provinsi</h2>
+        <img src="Source/Profilwa.png">
+        <p>Sumatra Utara</p>
+      </div>
+      <div class="mainbout">
+        <h2>Asal Sekolah</h2>
+        <img src="Source/Profilwa.png">
+        <p>SMAN 6 Siantar</p>
+      </div>
+    </div>
+    </main>
+  </section>
+
+<!--Keahlian-->
+
+  <section class="keahlian" id="Keahlian">
+    <h2 class="bakatskillhead">Keahlian <span>Saya</span></h2>
+    <main class="contentbakat">
+      <div class="myskill">
+        <img src="Source/Html.png">
+        <button onclick="skiller1()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Css.png">
+        <button onclick="skiller2()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Javascript.png">
+        <button onclick="skiller3()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Cpp.png">
+        <button onclick="skiller4()">Status</button>
+      </div>
+      <!--<div class="myskill">
+        <img src="Source/Lmms.png">
+        <button onclick="skiller5()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Flstudio.png">
+        <button onclick="skiller6()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Replit.png">
+        <button onclick="skiller7()">Status</button>
+      </div>
+      <div class="myskill">
+        <img src="Source/Canva.png">
+        <button onclick="skiller8()">Status</button>
+      </div>-->
+    </main>
+  </section>
+
+<!--Prestasi-->
+
+  <section class="prestasi" id="Prestasi">
+    <main class="containprestasi">
+      <div class="ingfoprestasi">
+        <h2>Prestasi <span>Saya</span></h2>
+        <ul>
+          <li><span>Olimpiade</span> - Mendapatkan sertifikat Olimpiade Sains Nasional dari Lembaga Kompetisi Nasional.</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+        </ul>
+        <ul>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+          <li><span>Olimpiade</span> -</li>
+        </ul>
+        <ul>
+          <li><span>Sekolah</span> - Mendapatkan sertifikat rangking 3 kelas X Semester 1.</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+        </ul>
+        <ul>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+          <li><span>Sekolah</span> -</li>
+        </ul>
+      </div>
+      <!--<div class="myprestasi">
+        <img src="Source/Rezaicon.png" alt="#">
+        <h2>Rezachan 1.0</h2>
+        <a href="https://rezachan.reza-varenovare.repl.co" target="_blank">Lihat Website</a>
+      </div>
+      <div class="myprestasi">
+        <img src="Source/Rezaicon.png" alt="#">
+        <h2>Rezachan 1.5</h2>
+        <a href="https://rezachan15.reza-varenovare.repl.co" target="_blank">Lihat Website</a>
+      </div>
+      <div class="myprestasi">
+        <img src="Source/Zaalink.png" alt="#">
+        <h2>ZaaLink</h2>
+        <a href="https://zaalink.reza-varenovare.repl.co" target="_blank">Lihat Website</a>
+      </div>-->
+    </main>
+  </section>
+
+<!--Hubungi-->
+
+  <section class="hubungi" id="Hubungi">
+    <main class="sosmed">
+      <div class="media">
+        <h2>Media Sosial</h2>
+        <a class="youtube" href="https://www.youtube.com/@rezaxel/" target="_blank">Rezaxel <i class="fa fa-arrow-up-right-from-square"></i></a>
+        <a class="instagram" href="https://www.instagram.com/rezaxelvar/" target="_blank">rezaxelvar <i class="fa fa-arrow-up-right-from-square"></i></a>
+        <a class="github" href="https://github.com/rezaxelvar/" target="_blank">Rezaxel <i class="fa fa-arrow-up-right-from-square"></i></a>
+        <a class="facebook" href="https://www.facebook.com/people/AlzRez/pfbid0hkF3KW78WjtBSvYM5gM1WrB9doRnXxNssSnpLri9U2gjBCT8cf4eVMoBAZAi2QqSl/" target="_blank">Chika Yoshimi <i class="fa fa-arrow-up-right-from-square"></i></a>
+        <p>-Sesuaikan warnanya-</p>
+      </div>
+      <div class="email">
+        <span><i class="fa-brands fa-whatsapp"></i> +62 853-5945-8223</span>
+        <span><i class="fa-brands fa-telegram"></i> Rezaxelvar</span>
+        <span><i class="fa-brands fa-discord"></i> Rezaxel#2642</span>
+        <p>Terima kasih telah mengunjungi portfolio Rezaxel. Jika Anda memiliki masukan berupa pertanyaan, saran, kritik, pujian, dan lain-lain, silakan hubungi Rezaxel melalui nomor Whatsapp pribadi Rezaxel:</p>
+        <a href="https://wa.me/6285359458223" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+      </div>
+    </main>
+  </section>
+
+<!--Footer-->
+
+  <footer>
+    <p class="cp"><i class="fa-regular fa-copyright"></i> 2022 Rezaxel.</p>
+    <p class="by">Made with: <a href="https://replit.com/" target="_blank">Replit</a></p>
+  </footer>
+
+<!--Mores-->
+
+  <div class="scrollup" id="scrollmiss">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+  </div>
+  <!-- <img src="Source/Hihihi2.png" class="hihihi"> -->
+  <div class="progresser">
+    <div class="progbar" id="scrolls"></div>
+  </div>
+  <!--<div class="ifytube" id="tubers">
+    <iframe src="https://www.wa.me/6285359458223"></iframe>
+    <button onclick="frspawn()"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>-->
+
+  <script>
+    window.onscroll = function() {Scfun()};
+
+   function Scfun() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("scrolls").style.width = scrolled + "%";
+  }
+  </script>
+
+
+  <script>
+  window.addEventListener('scroll', function() {
+  var navbar = document.getElementById("scrollmiss");
+  navbar.classList.toggle('scrollgone', window.scrollY > 0);
+  });
+  </script>
+
+  <script>
+    function frspawn() {
+      var frspawns = document.getElementById("tubers");
+      frspawns.classList.toggle("frhide");
+    }
+  </script>
+
+<script>
+  alert("(!) Informasi web ini belum diperbarui sejak Des 2022 [ Awal Pembuatan ]")
+</script>
+
+</div>
+
+</body>
+
+</html>
